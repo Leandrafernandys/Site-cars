@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+     <!-- biblioteca de ícones -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- carregamento da animação AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <!-- carregamento do estilo.css -->
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+    body{
+        background-color: rgb(0, 0, 0);
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-sm barras" style="background-color: black; ">
+        <img src="img/logocar.png"  width="5%" height="5%"> 
+        <a class="navbar-brand  m-1" href="index.html">Cars</a>
+        <button class="navbar-toggler d-lg-none" style="background-color: rgb(236, 188, 28);" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><img src="img/open.png" width="70%" height="70%"></span>
+        </button>
+        <div class="collapse navbar-collapse"  id="collapsibleNavId">
+            <ul class="navbar-nav m-auto mt-2 mt-lg-0 ">
+                <li class="nav-item active">
+                    <a class="nav-link" href="carros.html">Carros<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="carroseletricos.html">Carros elétricos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="carrosantigos.html">Carros antigos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="marcas.html">Marcas</a>
+                </li>
+                
+                </li>
+            </ul>
+          
+        </div>
+    </nav>
+
+
+    
+  
+    <div class="container-fluid carstext">
+       <h2 class="text-center titulo">Fiat de 2019</h2>
+    </div>
+
+    <div class="container">
+        <img src="img/fiat01.jpg" width="100%" height="100%" class="mt-3 text-center">
+
+            <div class="row mt-3">
+                <div class="col-7"></div>
+                <div class="col">
+                    <h3 class="preco text-center"> Preço estimado: R$ 46.990</h3>
+                </div>
+            </div>
+
+
+
+        
+       
+    
+
+            <div class="card-informacao">
+                <img class="card-img-top" src="holder.js/100x180/" alt="">
+                <div class="card-body">
+                    <h4 class="card-title text-center">Sobre o carro</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate pretium vulputate. Ut eu libero sed nisl condimentum volutpat. Integer mi justo, dignissim in dictum sit amet, facilisis a massa. Donec id ultrices urna. Nulla ornare odio a ante tempor maximus. Duis ultrices odio vitae purus imperdiet lacinia. Duis non convallis risus. Vestibulum sed eros mattis lacus efficitur volutpat. Fusce sodales risus et odio condimentum, eu varius sapien elementum. Quisque ac dictum leo. In hac habitasse platea dictumst. Nulla erat erat, mollis nec nunc sit amet, tempus consectetur quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+    </div>
+    <div class="container-fluid carstext mt-2">
+        <h2 class="text-center titulo">Características</h2>
+     </div>
+
+     <div class="container mt-3">
+         <table class="table table-bordered table-dark table-hover">
+             <thead>
+                <th colspan="3">Mecânica</th>
+                
+             </thead>
+
+             <tbody>
+                 <tr>
+                     <td colspan="2">Motorização</td>
+                     <td>1,1</td>
+                     
+                 </tr>
+
+                 <tr>
+                     <td>Combustível</td>
+                     <td>Álcool</td>
+                     <td>Gasolina</td>
+                 </tr>
+
+                 <tr>
+                    <td>Potência</td>
+                    <td>75</td>
+                    <td>73</td>
+                </tr>
+                <tr>
+                    <td>Velocidade Máxima (km/h)</td>
+                    <td>157 </td>
+                    <td>153</td>
+                </tr>
+                    <td>Tempo</td>
+                    <td>12.5</td>
+                    <td>N/D</td>
+                </tr>
+
+
+                </tr>
+                    <td>Consumo em cidades (km/l)</td>
+                    <td>8</td>
+                    <td>11,6</td>
+                </tr>
+
+
+                </tr>
+                    <td>Cosumo em estradas (Km/l)</td>
+                    <td>9,4</td>
+                    <td>13,4</td>
+                </tr>
+
+                </tr>
+                    <td colspan="2">Câmbio</td>
+                    <td>Manual 5 marchas</td>
+                   
+                </tr>
+
+                 </tr>
+                    <td colspan="2">Direção</td>
+                    <td>Hidráulica</td>
+                    
+                </tr>
+             </tbody>
+
+         </table>
+
+
+         <table class="table table-bordered table-dark table-hover">
+            <thead>
+               <th colspan="3">Segurança</th>
+               
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td colspan="2">Airbag motorista</td>
+                    <td><i class="fa-solid fa-check"></i></td>
+                    
+                </tr>
+
+                <tr>
+                    <td colspan="2">Alarme</td>
+                    <td><i class="fa-solid fa-xmark"></i></td>
+                   
+                </tr>
+
+                <tr>
+                   <td colspan="2">Freios ABS</td>
+                   <td><i class="fa-solid fa-check"></i></td>
+                   
+               </tr>
+               <tr>
+                   <td colspan="2">Airbag passageiro</td>
+                   <td><i class="fa-solid fa-check"> </td>
+                  
+               </tr>
+                   <td colspan="2">airbag lateral</td>
+                   <td><i class="fa-solid fa-xmark"></td>
+                
+               </tr>
+
+
+               </tr>
+                   <td colspan="2">controle de tração</td>
+                   <td><i class="fa-solid fa-xmark"></i></td>
+                   
+               </tr>
+
+
+               
+            </tbody>
+
+        </table>
+
+
+        <table class="table table-bordered table-dark table-hover">
+            <thead>
+               <th colspan="3">Conforto</th>
+               
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td colspan="2">Ar-condicionado</td>
+                    <td><i class="fa-solid fa-check"></i></td>
+                    
+                </tr>
+
+                <tr>
+                    <td colspan="2">Travas elétricas</td>
+                    <td><i class="fa-solid fa-check"></i></td>
+                   
+                </tr>
+
+                <tr>
+                   <td colspan="2">Piloto automático</td>
+                   <td><i class="fa-solid fa-xmark"></i></td>
+                   
+               </tr>
+               <tr>
+                   <td colspan="2">Volante com regulagem de altura</td>
+                   <td><i class="fa-solid fa-xmark"></i></td>
+                  
+               </tr>
+                   <td colspan="2">Trio eletrico</td>
+                   <td><i class="fa-solid fa-xmark"></td>
+                
+               </tr>
+
+
+               </tr>
+                   <td colspan="2">controle de tração</td>
+                   <td><i class="fa-solid fa-xmark"></i></td>
+                   
+               </tr>
+
+
+               
+            </tbody>
+        </table>   
+            <table class="table table-bordered table-dark table-hover">
+                <thead>
+                   <th colspan="3">Som</th>
+                   
+                </thead>
+    
+                <tbody>
+                    <tr>
+                        <td colspan="2">cd player</td>
+                        <td><i class="fa-solid fa-check"></i></td>
+                        
+                    </tr>
+    
+                    <tr>
+                        <td colspan="2">cd player com MP3</td>
+                        <td><i class="fa-solid fa-check"></i></td>
+                       
+                    </tr>
+    
+                    <tr>
+                       <td colspan="2">entrada USB</td>
+                       <td><i class="fa-solid fa-check"></i></td>
+                       
+                   </tr>
+                   <tr>
+                       <td colspan="2">rádio FM/AM</td>
+                       <td><i class="fa-solid fa-xmark"></i></td>
+                      
+                   </tr>
+                       <td colspan="2">Kit Multimídia</td>
+                       <td><i class="fa-solid fa-check"></td>
+                    
+                   </tr>
+    
+    
+                
+    
+                   
+                </tbody>
+            </table>
+
+                
+
+        
+
+        <table class="table table-bordered table-dark table-hover">
+            <thead>
+               <th colspan="3">Bancos</th>
+               
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td colspan="2">bancos de couro</td>
+                    <td><i class="fa-solid fa-xmark"></i></td>
+                    
+                </tr>
+
+                <tr>
+                    <td colspan="2">ajuste de altura</td>
+                    <td><i class="fa-solid fa-check"></i></td>
+                   
+                </tr>
+
+                <tr>
+                   <td colspan="2">ajuste elétrico</td>
+                   <td><i class="fa-solid fa-check"></i></td>
+                   
+               </tr>
+         
+
+
+            
+
+               
+            </tbody>
+        </table>   
+        <table class="table table-bordered table-dark table-hover">
+            <thead>
+               <th colspan="3">Janela</th>
+               
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td colspan="2">vidros elétricos dianteiros</td>
+                    <td><i class="fa-solid fa-check"></i></td>
+                    
+                </tr>
+
+                <tr>
+                    <td colspan="2">desemb. traseiro</td>
+                    <td><i class="fa-solid fa-check"></i></td>
+                   
+                </tr>
+
+                <tr>
+                   <td colspan="2">teto solar</td>
+                   <td><i class="fa-solid fa-check"></i></td>
+                   
+               </tr>
+               <tr>
+                   <td colspan="2">vidros elétricos traseiros</td>
+                   <td><i class="fa-solid fa-xmark"></i></td>
+                  
+              
+
+
+            
+
+               
+            </tbody>
+        </table>
+
+        </table>
+
+        <table class="table table-bordered table-dark table-hover">
+            <thead>
+               <th colspan="3">Outros</th>
+               
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td colspan="2">computador de bordo</td>
+                    <td><i class="fa-solid fa-check"></i></td>
+                    
+                </tr>
+
+                <tr>
+                    <td colspan="2">sensor de farol</td>
+                    <td><i class="fa-solid fa-check"></i></td>
+                   
+                </tr>
+
+                <tr>
+                   <td colspan="2">farol de neblina</td>
+                   <td><i class="fa-solid fa-xmark"></i></td>
+                   
+               </tr>
+         
+
+
+            
+
+               
+            </tbody>
+
+        </table>
+     </div>
+
+   
+     <footer>
+        <h5 class="text-center mt-5">Desenvolvido  por Leah</h5>
+    </footer>
+
+      <!-- seta para o retorno ao topo -->
+        <span class="seta-sobe">
+            <i class="fa-solid fa-angles-up"></i>
+        </span>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- carregamento do lighbox -->
+    <script src="jv/lightbox.js"></script>
+    <!-- carregamento da animação AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- códigos JS do site marketing -->
+    <script src="jv/code.js"></script>  
+    </body>
